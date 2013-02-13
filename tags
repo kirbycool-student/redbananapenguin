@@ -1,0 +1,251 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AjaxConnection	js/ajax.js	/^function AjaxConnection(url) $/;"	c
+B	colors.php	/^$B = $B * 100;$/;"	v
+B	colors.php	/^$B = $rgb[2];$/;"	v
+B	colors.php	/^$B = ( $B \/ 255.000 );$/;"	v
+CmnBatchFlag	speechToText.php	/^   $CmnBatchFlag='true';$/;"	v
+G	colors.php	/^$G = $G * 100;$/;"	v
+G	colors.php	/^$G = $rgb[1];$/;"	v
+G	colors.php	/^$G = ( $G \/ 255.000 );$/;"	v
+L	colors.php	/^$L = ( 116 * $Y ) - 16;$/;"	v
+L1	colors.php	/^$L1=$Lab1[0]; $a1=$Lab1[1]; $b1=$Lab1[2];$/;"	v
+L2	colors.php	/^$L2=$Lab2[0]; $a2=$Lab2[1]; $b2=$Lab2[2];$/;"	v
+Lab	colors.php	/^        $Lab = xyz2lab($xyz);$/;"	v
+NFDo	niceforms.js	/^function NFDo(what) {$/;"	f
+NFFix	niceforms.js	/^function NFFix() {$/;"	f
+NFInit	niceforms.js	/^function NFInit() {$/;"	f
+R	colors.php	/^$R = $R * 100;$/;"	v
+R	colors.php	/^$R = $rgb[0];$/;"	v
+R	colors.php	/^$R = ( $R \/ 255.000 );$/;"	v
+X	colors.php	/^$X = $R * 0.4124 + $G * 0.3576 + $B * 0.1805;$/;"	v
+X	colors.php	/^$X = $X \/ 95.047;$/;"	v
+X	colors.php	/^$X = $xyz[0];$/;"	v
+Y	colors.php	/^$Y = $R * 0.2126 + $G * 0.7152 + $B * 0.0722;$/;"	v
+Y	colors.php	/^$Y = $Y \/ 100.000;$/;"	v
+Y	colors.php	/^$Y = $xyz[1];$/;"	v
+Z	colors.php	/^$Z = $R * 0.0193 + $G * 0.1192 + $B * 0.9505;$/;"	v
+Z	colors.php	/^$Z = $Z \/ 108.883;$/;"	v
+Z	colors.php	/^$Z = $xyz[2];$/;"	v
+a	colors.php	/^$a = 500 * ( $X - $Y );$/;"	v
+abortAjax	js/ajax.js	/^function abortAjax()$/;"	c
+analyzeImageColors	mosaic.php	/^function analyzeImageColors($im, $width){$/;"	f
+analyzeImageColors	mosaicBack.php	/^function analyzeImageColors($im, $width){$/;"	f
+arr	mosaic.php	/^		$arr = explode('.', $pathToImage);$/;"	v
+arr	mosaic.php	/^      $arr = explode('.', $test);$/;"	v
+arr	mosaicBack.php	/^		$arr = explode('.', $pathToImage);$/;"	v
+arr	mosaicBack.php	/^      $arr = explode('.', $pathToImage);$/;"	v
+b	colors.php	/^$b = 200 * ( $Y - $Z );$/;"	v
+bestColor	colors.php	/^function bestColor($r, $g, $b){$/;"	f
+block	mosaic.php	/^	        $block =imagecreatetruecolor(1, 1);$/;"	v
+block	mosaicBack.php	/^	        $block =imagecreatetruecolor(1, 1);$/;"	v
+blockHeight	mosaic.php	/^    $blockHeight = $blockWidth;   \/\/round($imHeight\/$yCount);$/;"	v
+blockHeight	mosaicBack.php	/^    $blockHeight = $blockWidth;   \/\/round($imHeight\/$yCount);$/;"	v
+blockStartX	mosaic.php	/^	        $blockStartX =($x*$blockWidth);$/;"	v
+blockStartX	mosaicBack.php	/^	        $blockStartX =($x*$blockWidth);$/;"	v
+blockStartY	mosaic.php	/^	        $blockStartY =($y*$blockHeight);$/;"	v
+blockStartY	mosaicBack.php	/^	        $blockStartY =($y*$blockHeight);$/;"	v
+blockWidth	mosaic.php	/^    $blockWidth = $width;$/;"	v
+blockWidth	mosaicBack.php	/^    $blockWidth = $width;$/;"	v
+caller	mosaic.php	/^		function caller(){ searchInit();$/;"	f
+caller	mosaicBack.php	/^		function caller(){ searchInit();$/;"	f
+ch	speechToText.php	/^   $ch = curl_init();$/;"	v
+color	mosaic.php	/^			$color = rgb2string($img[$y][$x]['r'], $img[$y][$x]['g'], $img[$y][$x]['b']);$/;"	v
+color	mosaic.php	/^		$color = analyzeImageColors($img, $width);$/;"	v
+color	mosaicBack.php	/^			$color = rgb2string($img[$y][$x]['r'], $img[$y][$x]['g'], $img[$y][$x]['b']);$/;"	v
+color	mosaicBack.php	/^		$color = analyzeImageColors($img, $width);$/;"	v
+colorArr	mosaic.php	/^	$colorArr = array();$/;"	v
+colorArr	mosaicBack.php	/^	$colorArr = array();$/;"	v
+colorNum	mosaic.php	/^	$colorNum = array();$/;"	v
+colorNum	mosaicBack.php	/^	$colorNum = array();$/;"	v
+colorsLab	colors.php	/^    $colorsLab = array();$/;"	v
+colorsRGB	colors.php	/^    $colorsRGB = array(array(204, 0, 0),array(251, 148, 11),array(255, 255, 0),array(0, 204, 0),array(3, 192, 198),array(0, 0, 255),array(118, 44, 167),array(255, 152, 191),array(255, 255, 255),array(153, 153, 153),array(0, 0, 0),array(136, 84, 24));$/;"	v
+compile	compileMosaic.php	/^        	$compile = imagecreatefromjpeg($dir.$entry);$/;"	v
+compileMosaic	js/printImages.js	/^function compileMosaic(){$/;"	f
+connect	js/ajax.js	/^function connect(return_func, params, method)$/;"	c
+connect.x	js/ajax.js	/^        this.x.onreadystatechange = function() {$/;"	m
+continuousFlag	speechToText.php	/^   $continuousFlag='true';$/;"	v
+countX	download.php	/^$countX = $_POST['countX'];$/;"	v
+countY	download.php	/^$countY = $_POST['countY'];$/;"	v
+dE	colors.php	/^function dE($Lab1, $Lab2) {$/;"	f
+diff	colors.php	/^    $diff = dE(xyz2lab(rgb2xyz(array($r,$g,$b))),$value);$/;"	v
+differencearray	colors.php	/^    $differencearray = array();$/;"	v
+dir	compileMosaic.php	/^$dir = "images\/mosaic\/";$/;"	v
+doEndpointing	speechToText.php	/^   $doEndpointing='true';$/;"	v
+download	js/printImages.js	/^function download(){$/;"	f
+el.bg.onmouseout	niceforms.js	/^	}$/;"	f
+el.button.onclick	niceforms.js	/^	el.button.ref = el;$/;"	c
+el.dummy.onclick	niceforms.js	/^	else {el.dummy.style.left = findPosX(el) + 4 + 'px'; el.dummy.style.top = findPosY(el) + 4 + 'px';}$/;"	f
+el.dummy.onmouseout	niceforms.js	/^	}$/;"	f
+el.init	niceforms.js	/^	}$/;"	c
+el.onblur	niceforms.js	/^	}$/;"	c
+el.onclick	niceforms.js	/^	}$/;"	f
+el.onfocus	niceforms.js	/^	el.dummy.className = "NFTextCenter";$/;"	c
+el.onkeydown	niceforms.js	/^	el.onblur = function() {this.dummy.className = this.dummy.className.replace(\/ NFfocused\/g, "");}$/;"	c
+el.onmouseout	niceforms.js	/^	}$/;"	c
+el.onmouseover	niceforms.js	/^	el.right.className = "NFButtonRight";$/;"	c
+el.onselect	niceforms.js	/^	}$/;"	c
+el.unload	niceforms.js	/^	}$/;"	c
+ext	mosaic.php	/^		$ext = $arr[1];$/;"	v
+ext	mosaic.php	/^		$ext = $ext[1];$/;"	v
+ext	mosaic.php	/^		$ext = explode('.', $test);$/;"	v
+ext	mosaic.php	/^      $ext = $arr[1];$/;"	v
+ext	mosaicBack.php	/^		$ext = $arr[1];$/;"	v
+ext	mosaicBack.php	/^      $ext = $arr[1];$/;"	v
+eyeDropper	mosaic.php	/^	        $eyeDropper =imagecolorat($block, 0, 0);$/;"	v
+eyeDropper	mosaicBack.php	/^	        $eyeDropper =imagecolorat($block, 0, 0);$/;"	v
+file	mosaic.php	/^      	$file = file_get_contents("http:\/\/www.comebind.com\/".$pathToImage);$/;"	v
+file	mosaic.php	/^      	$file = file_get_contents($pathToImage);$/;"	v
+file	mosaicBack.php	/^      $file = file_get_contents("http:\/\/www.comebind.com\/".$pathToImage);$/;"	v
+findPosX	niceforms.js	/^function findPosX(obj) {$/;"	f
+findPosY	niceforms.js	/^function findPosY(obj) {$/;"	f
+frame	mosaic.php	/^		$frame = $movie->getFrame(1234);$/;"	v
+frame	mosaicBack.php	/^		$frame = $movie->getFrame(1234);$/;"	v
+fullfilepath	speechToText.php	/^   $fullfilepath = 'obama_short.mp3';$/;"	v
+getImageUrls	js/printImages.js	/^function getImageUrls(arr, color){$/;"	f
+getImages	js/imageSearch.js	/^function getImages(searchTerm, color, n, callback) {$/;"	f
+getInputsByName	niceforms.js	/^function getInputsByName(name) {$/;"	f
+handleCompileMosaic	js/printImages.js	/^function handleCompileMosaic(response){$/;"	f
+handleDownload	js/printImages.js	/^function handleDownload(response){$/;"	f
+height	compileMosaic.php	/^$height = $_POST['height'];$/;"	v
+height	mosaic.php	/^      $height = imagesy( $img );$/;"	v
+height	mosaicBack.php	/^      $height = imagesy( $img );$/;"	v
+hex	mosaic.php	/^	        $hex =sprintf("%02X%02X%02X", $colorArray[$y][$x]['r'], $colorArray[$y][$x]['g'], $colorArray[$y][$x]['b']);$/;"	v
+hex	mosaicBack.php	/^	        $hex =sprintf("%02X%02X%02X", $colorArray[$y][$x]['r'], $colorArray[$y][$x]['g'], $colorArray[$y][$x]['b']);$/;"	v
+imHeight	mosaic.php	/^    $imHeight =imagesy($im);$/;"	v
+imHeight	mosaicBack.php	/^    $imHeight =imagesy($im);$/;"	v
+imWidth	mosaic.php	/^    $imWidth =imagesx($im);$/;"	v
+imWidth	mosaicBack.php	/^    $imWidth =imagesx($im);$/;"	v
+imag	mosaic.php	/^		$imag = $_POST['imageLink'];$/;"	v
+imageUrl	mosaic.php	/^		$imageUrl = "http:\/\/img.youtube.com\/vi\/" . $videoId . "\/0.jpg";$/;"	v
+imagesPath	niceforms.js	/^var imagesPath = "img\/";$/;"	v
+img	compileMosaic.php	/^$img = imagecreate($width, $height);$/;"	v
+img	download.php	/^$img = imagecreate($countX*$width, $countY*$width);$/;"	v
+img	mosaic.php	/^		     $img = imagecreatefromgif($imag);$/;"	v
+img	mosaic.php	/^		     $img = imagecreatefromgif($pathToImage);$/;"	v
+img	mosaic.php	/^		     $img = imagecreatefromjpeg($imag);$/;"	v
+img	mosaic.php	/^		     $img = imagecreatefromjpeg($pathToImage);$/;"	v
+img	mosaic.php	/^		     $img = imagecreatefrompng($imag);$/;"	v
+img	mosaic.php	/^		     $img = imagecreatefrompng($pathToImage);$/;"	v
+img	mosaic.php	/^		$img = imagecreatefromjpeg($imageUrl);$/;"	v
+img	mosaic.php	/^		$img = imagecreatefromjpeg('images\/main.jpg');	$/;"	v
+img	mosaic.php	/^           $img = imagecreatefromgif($pathToImage);$/;"	v
+img	mosaic.php	/^           $img = imagecreatefromjpeg($pathToImage);$/;"	v
+img	mosaic.php	/^           $img = imagecreatefrompng($pathToImage);$/;"	v
+img	mosaicBack.php	/^		     $img = imagecreatefromgif($pathToImage);$/;"	v
+img	mosaicBack.php	/^		     $img = imagecreatefromjpeg($pathToImage);$/;"	v
+img	mosaicBack.php	/^		     $img = imagecreatefrompng($pathToImage);$/;"	v
+img	mosaicBack.php	/^		$img = imagecreatefromjpeg('images\/main.jpg');	$/;"	v
+img	mosaicBack.php	/^           $img = imagecreatefromgif($pathToImage);$/;"	v
+img	mosaicBack.php	/^           $img = imagecreatefromjpeg($pathToImage);$/;"	v
+img	mosaicBack.php	/^           $img = imagecreatefrompng($pathToImage);$/;"	v
+imgs	download.php	/^$imgs = $_POST['images'];$/;"	v
+incrementColor	mosaic.php	/^function incrementColor($color){$/;"	f
+incrementColor	mosaicBack.php	/^function incrementColor($color){$/;"	f
+init	mosaic.php	/^function init() {$/;"	f
+init	mosaicBack.php	/^function init() {$/;"	f
+init_object	js/ajax.js	/^function init_object() {$/;"	f
+inputCheck	niceforms.js	/^function inputCheck(el) { \/\/extend Checkboxes$/;"	f
+inputFile	niceforms.js	/^function inputFile(el) { \/\/extend File inputs$/;"	f
+inputRadio	niceforms.js	/^function inputRadio(el) { \/\/extent Radio buttons$/;"	f
+inputSubmit	niceforms.js	/^function inputSubmit(el) { \/\/extend Buttons$/;"	f
+inputText	niceforms.js	/^function inputText(el) { \/\/extent Text inputs$/;"	f
+isIE	niceforms.js	/^var isIE = false;$/;"	v
+key	colors.php	/^    $key = array_search($smallest, $differencearray);$/;"	v
+key	colors.php	/^    $key = bestColor($r, $g, $b);$/;"	v
+lmFlag	speechToText.php	/^$lmFlag='true';$/;"	v
+movie	mosaic.php	/^		$movie = new ffmpeg_movie('foo.flv');$/;"	v
+movie	mosaicBack.php	/^		$movie = new ffmpeg_movie('foo.flv');$/;"	v
+multiSelects	niceforms.js	/^function multiSelects(el) { \/\/extend Multiple Selects$/;"	f
+newOne	niceforms.js	/^					var newOne = active - 1;$/;"	v
+new_height	mosaic.php	/^      $new_height = floor( $height * ( $thumbWidth \/ $width ) );$/;"	v
+new_height	mosaicBack.php	/^      $new_height = floor( $height * ( $thumbWidth \/ $width ) );$/;"	v
+new_width	mosaic.php	/^      $new_width = $thumbWidth;$/;"	v
+new_width	mosaicBack.php	/^      $new_width = $thumbWidth;$/;"	v
+nf.add_inputCheck	niceforms.js	/^	nf.add_inputRadio = function(obj) {this._inputRadio[this._inputRadio.length] = obj; inputRadio(obj);}$/;"	c
+nf.add_inputFile	niceforms.js	/^	nf.add_inputSubmit = function(obj) {this._inputSubmit[this._inputSubmit.length] = obj; inputSubmit(obj);}$/;"	c
+nf.add_inputRadio	niceforms.js	/^	nf.add_inputText = function(obj) {this._inputText[this._inputText.length] = obj; inputText(obj);}$/;"	c
+nf.add_inputSubmit	niceforms.js	/^	nf.add_inputCheck = function(obj) {this._inputCheck[this._inputCheck.length] = obj; inputCheck(obj);}$/;"	c
+nf.add_inputText	niceforms.js	/^	nf._inputText = new Array(); nf._inputRadio = new Array(); nf._inputCheck = new Array(); nf._inputSubmit = new Array(); nf._inputFile = new Array(); nf._textarea = new Array(); nf._select = new Array(); nf._multiselect = new Array();$/;"	c
+nf.add_multiselect	niceforms.js	/^	nf.add_select = function(obj) {this._select[this._select.length] = obj; selects(obj);}$/;"	c
+nf.add_select	niceforms.js	/^	nf.add_textarea = function(obj) {this._textarea[this._textarea.length] = obj; textarea(obj);}$/;"	c
+nf.add_textarea	niceforms.js	/^	nf.add_inputFile = function(obj) {this._inputFile[this._inputFile.length] = obj; inputFile(obj);}$/;"	c
+nf.start	niceforms.js	/^	nf.add_multiselect = function(obj) {this._multiselect[this._multiselect.length] = obj; multiSelects(obj);}$/;"	f
+nf.unload	niceforms.js	/^	}$/;"	f
+niceform	niceforms.js	/^function niceform(nf) {$/;"	f
+num	download.php	/^$num = 0;$/;"	v
+numRequests	js/printImages.js	/^var numRequests = 0;$/;"	v
+numX	mosaic.php	/^		$numX = count($color[1]);$/;"	v
+numX	mosaicBack.php	/^		$numX = count($color[1]);$/;"	v
+numY	mosaic.php	/^		$numY = count($color);$/;"	v
+numY	mosaicBack.php	/^		$numY = count($color);$/;"	v
+option	niceforms.js	/^function option(el, no) { \/\/extend Options$/;"	f
+palette	mosaic.php	/^	        $palette =imagecolorsforindex($block, $eyeDropper);$/;"	v
+palette	mosaicBack.php	/^	        $palette =imagecolorsforindex($block, $eyeDropper);$/;"	v
+params	speechToText.php	/^   $params = array($/;"	v
+parsedUrl	mosaic.php	/^		$parsedUrl = parse_url($url);$/;"	v
+pathToImage	mosaic.php	/^		$pathToImage = $target_path;$/;"	v
+pathToImage	mosaic.php	/^	$pathToImage = "http:\/\/www.comebind.com\/hackathon\/images\/Penguins.jpg";$/;"	v
+pathToImage	mosaicBack.php	/^		$pathToImage = $target_path;$/;"	v
+pathToImage	mosaicBack.php	/^	$pathToImage = "http:\/\/www.comebind.com\/hackathon\/images\/Penguins.jpg";$/;"	v
+printImageColors	mosaic.php	/^function printImageColors($img){$/;"	f
+printImageColors	mosaicBack.php	/^function printImageColors($img){$/;"	f
+printImages	js/printImages.js	/^function printImages(arr, color){$/;"	f
+printImages	mosaic.php	/^function printImages($width, $numX, $numY){$/;"	f
+printImages	mosaicBack.php	/^function printImages($width, $numX, $numY){$/;"	f
+query	mosaic.php	/^		$query = $parsedUrl['query'];$/;"	v
+resizeImage	mosaic.php	/^function resizeImage( $pathToImage, $pathToThumb, $thumbWidth, $external=0 )$/;"	f
+resizeImage	mosaicBack.php	/^function resizeImage( $pathToImage, $pathToThumb, $thumbWidth )$/;"	f
+resizeTest	niceforms.js	/^var resizeTest = 1;$/;"	v
+response	speechToText.php	/^   $response = curl_exec($ch);$/;"	v
+rgb2string	colors.php	/^function rgb2string($r, $g, $b){$/;"	f
+rgb2xyz	colors.php	/^function rgb2xyz($rgb) {$/;"	f
+searchComplete	js/imageSearch.js	/^function searchComplete(callback, color) {$/;"	f
+searchConfig	js/imageSearch.js	/^function searchConfig(color, n, callback) {$/;"	f
+searchInit	js/imageSearch.js	/^function searchInit() {$/;"	f
+selectMaxHeight	niceforms.js	/^var selectMaxHeight = 200;$/;"	v
+selectRightWidthScroll	niceforms.js	/^var selectRightWidthScroll = 2;$/;"	v
+selectRightWidthSimple	niceforms.js	/^var selectRightWidthSimple = 19;$/;"	v
+selects	niceforms.js	/^function selects(el) { \/\/extend Selects$/;"	f
+smallest	colors.php	/^    $smallest = min($differencearray);$/;"	v
+target_path	mosaic.php	/^		$target_path = "images\/";$/;"	v
+target_path	mosaic.php	/^		$target_path = $target_path . basename( $_FILES['uploadedfile']['name']); $/;"	v
+target_path	mosaicBack.php	/^		$target_path = "images\/";$/;"	v
+target_path	mosaicBack.php	/^		$target_path = $target_path . basename( $_FILES['uploadedfile']['name']); $/;"	v
+test	mosaic.php	/^		$test = substr($imag, -4);$/;"	v
+test	mosaic.php	/^      	$test = substr($pathToImage, -4);$/;"	v
+textarea	niceforms.js	/^function textarea(el) { \/\/extend Textareas$/;"	f
+textareaSidePadding	niceforms.js	/^var textareaSidePadding = 10;$/;"	v
+textareaTopPadding	niceforms.js	/^var textareaTopPadding = 10;$/;"	v
+this.options	niceforms.js	/^			this.options[q].lnk.onclick = function() {$/;"	m
+tile	download.php	/^	$tile = imagecreatefromjpeg($links[rand(0, count($links)-1)]);$/;"	v
+tmp_img	mosaic.php	/^      $tmp_img = imagecreatetruecolor( $new_width, $new_height );$/;"	v
+tmp_img	mosaicBack.php	/^      $tmp_img = imagecreatetruecolor( $new_width, $new_height );$/;"	v
+upload_url	speechToText.php	/^   $upload_url = 'http:\/\/spokentech.net\/speechcloud\/SpeechUploadServlet';$/;"	v
+url	mosaic.php	/^		$url = $_POST['youtubeUrl'];$/;"	v
+videoId	mosaic.php	/^		$videoId = $v;$/;"	v
+width	compileMosaic.php	/^$width = $_POST['width'];$/;"	v
+width	download.php	/^$width = $_POST['width'];$/;"	v
+width	mosaic.php	/^		$width = $_POST['numPixels'];$/;"	v
+width	mosaic.php	/^		$width = printImageColors($color);$/;"	v
+width	mosaic.php	/^	$width = $img['width']['height']['value'];$/;"	v
+width	mosaic.php	/^      $width = imagesx( $img );$/;"	v
+width	mosaicBack.php	/^		$width = '10';$/;"	v
+width	mosaicBack.php	/^		$width = printImageColors($color);$/;"	v
+width	mosaicBack.php	/^	$width = $img['width']['height']['value'];$/;"	v
+width	mosaicBack.php	/^      $width = imagesx( $img );$/;"	v
+window.onload	niceforms.js	/^var existingResizeEvent = window.onresize || function() {};$/;"	f
+window.onresize	niceforms.js	/^}$/;"	f
+x	download.php	/^	$x = $y[0];$/;"	v
+xCount	mosaic.php	/^    $xCount = round($imWidth \/ $width);$/;"	v
+xCount	mosaicBack.php	/^    $xCount = round($imWidth \/ $width);$/;"	v
+xyz	colors.php	/^        $xyz = rgb2xyz($colorsRGB[$i]);$/;"	v
+xyz2lab	colors.php	/^function xyz2lab($xyz) {$/;"	f
+y	download.php	/^	$y = $y[1];$/;"	v
+y	download.php	/^	$y = explode(',', $coords[$n]);$/;"	v
+yCount	mosaic.php	/^    $yCount = round($imHeight \/ $blockHeight);$/;"	v
+yCount	mosaicBack.php	/^    $yCount = round($imHeight \/ $blockHeight);$/;"	v
